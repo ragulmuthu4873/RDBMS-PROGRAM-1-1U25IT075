@@ -1,8 +1,8 @@
-CREATE DATABASE UniversityDB;
-USE UniversityDB;
+CREATE DATABASE CollegeDB;
+USE CollegeDB;
 CREATE TABLE Department(
-  DepartmentID numeric (5) PRIMARY KEY,
-  DepartmentName varchar(20) ,
+  DepartmentID INT(5) PRIMARY KEY,
+  DepartmentName varchar(20),
   HOD varchar (20) 
 );
-  desc Department
+  DESC Department;
